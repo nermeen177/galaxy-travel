@@ -1,0 +1,69 @@
+.footer
+{
+    width: 100%;
+    padding: 3rem 4rem;
+    background-color: rgba(0,0,0,.8);
+    color:white;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3%;
+
+    &__left
+    {
+        height: 100%;
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    &__info
+    {
+        padding-bottom: .5rem;
+    }
+    &__middle
+    {
+        & img
+        {
+            width: 80px;
+        	height: 70px;
+        }
+        & h4
+        {
+            padding-bottom: 1rem ;
+        }
+    }
+    &__gallery
+    {
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    &__right
+    {
+        padding-right: 50px;
+
+        & h4
+        {
+            padding-bottom: 1rem ;
+        }
+        & p
+        {
+            padding-bottom: 1rem ;
+        }
+
+    }
+
+}
+@media screen and (max-width:720px)
+{
+    .footer{
+        grid-template-columns: 1fr;
+
+        &__right
+        {
+            padding-right: 5px;
+        }
+    }
+}
+
+ 

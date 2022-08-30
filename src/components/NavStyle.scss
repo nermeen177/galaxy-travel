@@ -1,0 +1,77 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+$basic-color: hsl(195, 74%, 62%);
+.navigation
+{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: white;
+    z-index: 10;
+    background: rgba(0,0,0,.5); 
+
+
+    &__list
+    {
+        list-style-type: none;
+        display: flex;
+
+    }
+    &__list-item
+    {
+
+        text-decoration: none;
+        padding: 0 20px;
+        font-size:20px;
+        font-weight: 500;
+        color: white;
+
+        &:hover
+        {
+            color: $basic-color;
+        }
+    }
+    &__icon
+    {
+        display:none;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:1200px)
+{
+    .navigation{
+
+        &__icon
+        {
+            display:block;
+        }
+        &__list
+        {
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            top:0;
+            left:-100%;
+            width:100%;
+            height: 100vh;
+            transition: 0.3s;
+            z-index: -1;  
+            padding: 170px;
+            background: rgba(0,0,0,.9);  
+            &--active{
+                 left: 0
+            }  
+        }
+        &__list-item
+        {
+            font-size: 30px;
+        }
+       
+    }
+    
+}

@@ -1,0 +1,81 @@
+$basic-color: hsl(195, 74%, 62%);
+.form-container
+{
+    background: url('../assets/pic11.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    &__back-ground
+    {       
+       height: 100vh;
+       width: 100%;
+       object-fit: contain;
+    }
+    &__layer
+    {
+      background: rgba(0,0,0,0.5);
+	   height: inherit;
+    }
+}
+.contact-form
+{
+   border: 2px solid $basic-color;
+   background-color: rgba(255,255,255,.1);
+   backdrop-filter: blur(5px);
+   padding: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 23%;
+   left:35%;
+   right: 35%;
+
+   &__input
+   {
+      margin-bottom: 2rem;
+      padding: 12px 20px;
+      border: 1px solid $basic-color;
+      background: transparent;
+      color: white;
+      outline:none;
+      &::placeholder
+      {
+         color:white;
+         opacity: 0.8;
+      }
+   }
+   &__btn
+   {
+      padding: 10px;
+      width: 40%;
+      background: transparent;
+      color: white;
+      border: 1px solid $basic-color;
+      cursor: pointer;
+      margin: .7rem auto 0rem;
+      &:hover
+      {
+         color: $basic-color;
+         background: rgba(255, 255, 255, 0.2);
+      }
+   }
+   &__header
+   {
+      color:white;
+      text-shadow: 2px 2px black;
+      margin-bottom: 2rem;
+   }
+}
+@media screen and (max-width: 840px)
+{
+   .contact-form
+   {
+      left:15%;
+      right: 15%;
+   }
+}
