@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/galaxy-travel/static/css/main.fdfd1b22.css",
+    "main.js": "/galaxy-travel/static/js/main.fa43909a.js",
+    "static/media/space.mp4": "/galaxy-travel/static/media/space.8884ce28564fa1e59c52.mp4",
+    "static/media/pic6.jpg": "/galaxy-travel/static/media/pic6.9e2165af7c5d1524a830.jpg",
+    "static/media/pic11.jpg": "/galaxy-travel/static/media/pic11.abdb960c20a5a8d95db3.jpg",
+    "static/media/pic3.jpg": "/galaxy-travel/static/media/pic3.414e43a091f1ad4dba7c.jpg",
+    "static/media/pic1.jpg": "/galaxy-travel/static/media/pic1.58828a1987df460bf44c.jpg",
+    "static/media/pic16.jpg": "/galaxy-travel/static/media/pic16.81684a87eaddd25677cc.jpg",
+    "static/media/pic7.jpg": "/galaxy-travel/static/media/pic7.1cf214d6750ba4700e33.jpg",
+    "static/media/pic17.jpg": "/galaxy-travel/static/media/pic17.ce71d0422c688e5290a7.jpg",
+    "index.html": "/galaxy-travel/index.html",
+    "main.fdfd1b22.css.map": "/galaxy-travel/static/css/main.fdfd1b22.css.map",
+    "main.fa43909a.js.map": "/galaxy-travel/static/js/main.fa43909a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdfd1b22.css",
+    "static/js/main.fa43909a.js"
+  ]
+}
