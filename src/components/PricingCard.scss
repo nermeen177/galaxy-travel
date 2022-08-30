@@ -1,0 +1,74 @@
+$basic-color: hsl(195, 74%, 62%);
+
+.cards-container
+{
+    padding: 2.5rem 4rem;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card
+{
+    border: 2px solid $basic-color;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 5px $basic-color;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0,0,0,.2);
+    backdrop-filter: blur(2px);
+
+    &:hover
+    {
+        background-color: rgba(0, 0, 0, 0.33);
+        transition: .2s;
+    }
+    &__bar
+    {
+        border-bottom: 1px solid $basic-color;
+        width:10%;
+        margin: 1.2rem auto;
+        display: block;
+    }
+    & p 
+    {
+        padding: .7rem 0;
+        font-size: 1.2rem;
+    }
+    &__btc
+    {
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding: 1rem;
+    }
+    &__btn
+    {
+        padding: 10px 30px;
+        background: transparent;
+        color: white;
+        border: 1px solid $basic-color;
+        text-decoration: none;
+        margin: 1.7rem auto;
+        width: 80%;
+        cursor: pointer;
+        display: block;
+        margin: 1.5rem auto;
+
+        &:hover
+        {
+            background: rgba(255, 255, 255, 0.16);
+            color:$basic-color;
+        }
+    }
+}
+@media screen and (max-width: 840px){
+    .cards-container
+    {
+        grid-template-columns: 1fr;
+        background-color: rgba(0,0,0,0); 
+        padding: 2rem 2.5rem;
+    }
+}
