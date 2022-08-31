@@ -69,13 +69,15 @@ $basic-color: hsl(195, 74%, 62%);
       color:white;
       text-shadow: 2px 2px black;
       margin-bottom: 2rem;
+      font-size: 1.8rem;
    }
 }
 @media screen and (max-width: 840px)
 {
    .contact-form
    {
-      left:15%;
-      right: 15%;
+      left:14%;
+      right: 14%;
+      padding: 2.3rem;
    }
 }

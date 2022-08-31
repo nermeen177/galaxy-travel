@@ -7,7 +7,7 @@ const Form = () => {
       <div className="form-container__back-ground">
         <div className="form-container__layer"></div>
         <form className="contact-form">
-          <h1 className="contact-form__header">Welcome!</h1>
+          <h1 className="contact-form__header">Contact Us!</h1>
           <input
             type="text"
             placeholder="enter your name"
@@ -20,7 +20,11 @@ const Form = () => {
             className="contact-form__input"
             required
           />
-          <button type="submit" className="contact-form__btn">
+          <button
+            type="submit"
+            className="contact-form__btn"
+            onClick={() => alert("Thanks, Submission is done")}
+          >
             Submit
           </button>
         </form>
