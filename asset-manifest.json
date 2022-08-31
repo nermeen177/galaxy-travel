@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/galaxy-travel/static/css/main.fdfd1b22.css",
-    "main.js": "/galaxy-travel/static/js/main.6b3e2385.js",
+    "main.css": "/galaxy-travel/static/css/main.e9163b57.css",
+    "main.js": "/galaxy-travel/static/js/main.8fc5dd95.js",
     "static/media/space.mp4": "/galaxy-travel/static/media/space.8884ce28564fa1e59c52.mp4",
     "static/media/pic6.jpg": "/galaxy-travel/static/media/pic6.9e2165af7c5d1524a830.jpg",
     "static/media/pic11.jpg": "/galaxy-travel/static/media/pic11.abdb960c20a5a8d95db3.jpg",
@@ -11,11 +11,11 @@
     "static/media/pic7.jpg": "/galaxy-travel/static/media/pic7.1cf214d6750ba4700e33.jpg",
     "static/media/pic17.jpg": "/galaxy-travel/static/media/pic17.ce71d0422c688e5290a7.jpg",
     "index.html": "/galaxy-travel/index.html",
-    "main.fdfd1b22.css.map": "/galaxy-travel/static/css/main.fdfd1b22.css.map",
-    "main.6b3e2385.js.map": "/galaxy-travel/static/js/main.6b3e2385.js.map"
+    "main.e9163b57.css.map": "/galaxy-travel/static/css/main.e9163b57.css.map",
+    "main.8fc5dd95.js.map": "/galaxy-travel/static/js/main.8fc5dd95.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdfd1b22.css",
-    "static/js/main.6b3e2385.js"
+    "static/css/main.e9163b57.css",
+    "static/js/main.8fc5dd95.js"
   ]
 }
