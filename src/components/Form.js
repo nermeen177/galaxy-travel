@@ -21,7 +21,6 @@ const Form = () => {
             required
           />
           <button
-            type="submit"
             className="contact-form__btn"
             onClick={() => alert("Thanks, Submission is done")}
           >
